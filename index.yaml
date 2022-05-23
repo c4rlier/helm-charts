@@ -2,81 +2,21 @@ apiVersion: v1
 entries:
   app-mendix:
   - apiVersion: v1
-    created: "2022-03-05T21:35:50.917065643Z"
-    description: Mendix Application Chart
-    digest: c27f92822a43fc45133b61c6d961ec8c00bdbbc0afd0752cebb1cb4c829e6f98
+    created: "2022-05-23T15:34:56.844510859Z"
+    description: Mendix Application Chart.
+    digest: 58c8057c5c6d59fe2dfc6135a708cba0bde166cb865463ccfb12fb512eaf32c5
     icon: https://cinaq.github.io/helm-charts/icons/mendix-logo.png
     maintainers:
     - email: x@cinaq.com
       name: Xiwen Cheng
     name: app-mendix
     urls:
-    - https://github.com/cinaq/helm-charts/releases/download/app-mendix-1.0.5/app-mendix-1.0.5.tgz
-    version: 1.0.5
-  - apiVersion: v1
-    created: "2022-03-05T20:30:48.825428278Z"
-    description: Mendix Application Chart
-    digest: e30ad800a099d916d453ef88adf386888a74211f897b68850158f98e05b6bb0d
-    icon: https://cinaq.github.io/helm-charts/icons/mendix-logo.png
-    maintainers:
-    - email: x@cinaq.com
-      name: Xiwen Cheng
-    name: app-mendix
-    urls:
-    - https://github.com/cinaq/helm-charts/releases/download/app-mendix-1.0.4/app-mendix-1.0.4.tgz
-    version: 1.0.4
-  - apiVersion: v1
-    created: "2022-03-04T11:07:25.854880863Z"
-    description: Mendix Application Chart
-    digest: c9d9ee072b3a060563069a9a070cb0981ae12a1ee06d0713f4bd14a1032cfe13
-    icon: https://cinaq.github.io/helm-charts/icons/mendix-logo.png
-    maintainers:
-    - email: x@cinaq.com
-      name: Xiwen Cheng
-    name: app-mendix
-    urls:
-    - https://github.com/cinaq/helm-charts/releases/download/app-mendix-1.0.3/app-mendix-1.0.3.tgz
-    version: 1.0.3
-  - apiVersion: v1
-    created: "2022-03-04T10:40:25.537554218Z"
-    description: Mendix Application Chart
-    digest: 70529bd744086120bdd9add3dc9fb2dd99be28fb6b5ed25d70b05cb16b69781e
-    icon: https://cinaq.github.io/helm-charts/icons/mendix-logo.png
-    maintainers:
-    - email: x@cinaq.com
-      name: Xiwen Cheng
-    name: app-mendix
-    urls:
-    - https://github.com/cinaq/helm-charts/releases/download/app-mendix-1.0.2/app-mendix-1.0.2.tgz
-    version: 1.0.2
-  - apiVersion: v1
-    created: "2022-02-21T00:13:39.910490401Z"
-    description: Mendix Application Chart
-    digest: 808ba8c1999184697d0b3dd6ade92d51b21e55b5ddb89f6ea567d15ea6068fd0
-    icon: https://cinaq.github.io/helm-charts/icons/mendix-logo.png
-    maintainers:
-    - email: x@cinaq.com
-      name: Xiwen Cheng
-    name: app-mendix
-    urls:
-    - https://github.com/cinaq/helm-charts/releases/download/app-mendix-1.0.1/app-mendix-1.0.1.tgz
-    version: 1.0.1
-  - apiVersion: v1
-    created: "2022-02-16T21:43:00.555029918Z"
-    description: Mendix Application Chart
-    digest: 1c547f376ed6d34a12902d41573f7e6d9528ec853c4b192c739316eab7cd3fd1
-    icon: https://cinaq.github.io/helm-charts/icons/mendix-logo.png
-    maintainers:
-    - email: x@cinaq.com
-      name: Xiwen Cheng
-    name: app-mendix
-    urls:
-    - https://github.com/cinaq/helm-charts/releases/download/app-mendix-1.0.0/app-mendix-1.0.0.tgz
-    version: 1.0.0
+    - https://github.com/c4rlier/helm-charts/releases/download/app-mendix-1.0.6/app-mendix-1.0.6.tgz
+    version: 1.0.6
   loki-stack:
   - apiVersion: v1
     appVersion: v2.1.0
-    created: "2022-03-12T15:25:08.825685434Z"
+    created: "2022-05-23T15:34:57.04310353Z"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -107,7 +47,7 @@ entries:
       repository: https://helm.elastic.co
       version: ~7.17.1
     description: 'Loki: like Prometheus, but for logs.'
-    digest: 10d219f90c1353dc33b2440cf966c32aab4773b2bfac4d35072639837be43a5f
+    digest: 6a6a5ea2206aacffbc1d36d07d58e8bacdde892428f1bacf34a3aa351f2292fe
     home: https://grafana.com/loki
     icon: https://raw.githubusercontent.com/grafana/loki/master/docs/sources/logo.png
     kubeVersion: ^1.10.0-0
@@ -118,6 +58,6 @@ entries:
     sources:
     - https://github.com/grafana/loki
     urls:
-    - https://github.com/cinaq/helm-charts/releases/download/loki-stack-2.6.2/loki-stack-2.6.2.tgz
-    version: 2.6.2
-generated: "2022-03-12T15:25:08.825709334Z"
+    - https://github.com/c4rlier/helm-charts/releases/download/loki-stack-2.6.3/loki-stack-2.6.3.tgz
+    version: 2.6.3
+generated: "2022-05-23T15:34:57.04311683Z"
